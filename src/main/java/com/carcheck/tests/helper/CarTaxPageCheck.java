@@ -29,8 +29,7 @@ public class CarTaxPageCheck extends BasePage {
         SharedDriver.getWebDriver().get(Props.getProp("url"));
     }
 
-    public void enterCarRegistration() throws IOException, InterruptedException {
-        String registrion = null;
+    public void checkCarDataWithCarTaxCheckSite() throws IOException, InterruptedException {
         Util util = new Util();
         for (int i = 0; i < util.getRegData().size(); i++) {
             waitForExpectedElement(enterRegistration, DRIVER_WAIT_TIME).clear();

@@ -10,4 +10,4 @@
 * To run the test from commandline, 'mvn test' runs all the test, to run on a specific browser 'mvn test -Dbrowser=chrome or firefox'.
 * The test can be run from the Cucumber Test Runner class by right clicking and run. To run a specific scenario, the scenario can be tagged with a name of choice and pass this in the tag option of the Test Runner class.
 * The test can also be run from the feature file by right clicking on the feature or to run a specific scenario, right click on the scenario.
-                                   
+* To view `Test Report` open auto generated report in any browser from location `/report/cucumber-reports/report.html`                                
